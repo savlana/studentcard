@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+    
+
+    .container {
+        text-align: center;
+  
+    }
+
+    .container h1 {
+        margin-bottom: 40px;
+        color: #7d7d7d;
+    }
+
+
+  h2.lightgrey {
+    color: #585858;
+ }
+
+
+body {
+    
+    max-width: 750px;
+    margin: auto;
+    background: #fbfbfb;
+    
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.bg-grey {
+    background: linear-gradient( #fbfbfb, #dcdbd5, #fbfbfb ); ;
+    
+}
+
+.ownersphoto {
+    width: 250px;
+    opacity: 0.6;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+@media (max-width: 700px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info .text {
+     /* text-align: left;   */
+     align-items: center;
+     justify-content: center;
+     margin-left: 100px;
+    
+}
+
+.info .text p {
+    text-align: left;
+}
+
+.general-text {
+    color: #86898f;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+
+
+.general-text {
+    padding: 0;
+}
+
+
+
+.info  .photo {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info p {
+    margin: 0%;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+.age {
+    margin-bottom: 15px;
+}
+.exp {
+    margin-bottom: 15px;
+}
+
+
+.goals {
+    margin-bottom: 40px;
+}
+
+
+.goals li {
+    list-style-position: unset;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
+
+.time {
+
+    display: grid;
+     grid-template-columns: auto auto; 
+}
+
+.day {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.hours {
+    text-align: left;
+}
+
+
+
+
+.day p {
+    margin: 10px;
+}
+.hours p {
+    margin: 10px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: grey;
+}
+
+
+
+.contact-icon {
+padding: 20px;
+}
